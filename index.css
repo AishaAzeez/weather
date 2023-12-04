@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    box-sizing: border-box;
+}
+
+.card1{
+    width: 100%;
+    height: 100vh;
+    max-width:700px;
+    margin: 20px;
+    border-radius: 25px;
+    background-image:url("./imagesfin/1st.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.search{
+width: 100%;
+display: flex;
+align-items: center;
+background: rgba(255, 255, 255, 0.122);
+justify-content: space-between;
+border-radius: 60px;
+}
+.search input{
+    padding: 10px 25px;
+   background: transparent;
+  border: none;
+    border-radius: 40px;
+    height: 40px;
+    flex: 1;
+    color: burlywood;
+
+}
+::placeholder{
+    color: #ccc;
+}
+.btn{
+margin-left: 5px;
+}
+@media(min-width:300px)and (max-width:600px){
+    .btn{
+        margin-left: -38px;
+    }
+}
+.pre-hum{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5 5px;
+    margin-top:12px;
+}
+
+.weath{
+    margin-top:150px;
+  /* border: 2px solid gold; */
+}
+.cname{
+    font-size: 45px;
+    color: black;
+    
+}
+.temp{
+    font-size:25px;
+    color:black;
+    margin-top:-19px;
+}
+.info,.info1{
+    margin-top: 90px;
+
+}
+.info1{
+    margin-top:107px;
+}
+.ps{
+    font-size:23px;
+}
+.hr{
+    width: 100%;
+    border: 2px solid black;
+    color:black;
+}
+.curr{
+    background-color:rgba(218, 165, 32, 0.314);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+}
+.curr:hover{
+background-color:goldenrod;
+}
