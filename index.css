@@ -58,7 +58,7 @@ margin-left: 5px;
 }
 
 .weath{
-    margin-top:150px;
+    margin-top:73px;
   /* border: 2px solid gold; */
 }
 .cname{
@@ -79,8 +79,9 @@ margin-left: 5px;
     margin-top:107px;
 }
 .ps{
-    font-size:23px;
+    font-size:20px;
     color: #7b5037;
+    margin-top:-14px;
     
 }
 .hr{
@@ -100,4 +101,7 @@ margin-left: 5px;
 }
 .curr:hover{
 background-color:#c1a78e;
+}
+.sty{
+    font-size: smaller;
 }
