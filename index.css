@@ -10,8 +10,7 @@
     height: 100vh;
     max-width:700px;
     margin: 20px;
-    border-radius: 25px;
-    background-image:url("./imagesfin/1st.jpg");
+    background-image:url("./imagesfin/third.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 35px;
@@ -36,11 +35,11 @@ border-radius: 60px;
     border-radius: 40px;
     height: 40px;
     flex: 1;
-    color: burlywood;
+    color:#6b533b;
 
 }
 ::placeholder{
-    color: #ccc;
+    color: black;
 }
 .btn{
 margin-left: 5px;
@@ -64,12 +63,12 @@ margin-left: 5px;
 }
 .cname{
     font-size: 45px;
-    color: black;
+    color: white;
     
 }
 .temp{
     font-size:25px;
-    color:black;
+    color:white;
     margin-top:-19px;
 }
 .info,.info1{
@@ -81,21 +80,24 @@ margin-left: 5px;
 }
 .ps{
     font-size:23px;
+    color: #7b5037;
+    
 }
 .hr{
     width: 100%;
-    border: 2px solid black;
-    color:black;
+    border: 2px solid #7b5037;
+    color:#7b5037;
+    background-color: #7b5037;
 }
 .curr{
-    background-color:rgba(218, 165, 32, 0.314);
+    background-color:#c1a78ea2;
     border-radius: 20px;
     padding: 5px;
-    color: white;
+    color: black;
     width: 200px;
     border: none;
     font-size: 20px;
 }
 .curr:hover{
-background-color:goldenrod;
+background-color:#c1a78e;
 }
